@@ -1,0 +1,45 @@
+.logo {
+  width: 50%;
+  z-index: 11;
+  max-width: 400px;
+  position: absolute;
+}
+.contHeadLogo {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.circle {
+    position: absolute;
+    /* background-color:#125854; */
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+@media screen and (min-width: 700px) {
+  .contHeadLogo{
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .logo {
+    width: 30%;
+  }
+  .contHeadLogo {
+    margin-bottom: 190px;
+    margin-top: 190px;
+}
+.circle {
+  position: absolute;
+  /* background-color:#125854; */
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+}
+}

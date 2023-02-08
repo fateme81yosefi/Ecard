@@ -1,0 +1,130 @@
+.ApiTop {
+  background: rgb(60, 61, 63);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 13px;
+  font-weight: 500;
+}
+.projButton {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  direction: rtl;
+}
+.containtxttitle {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-weight: bold;
+}
+.circlieLittle {
+  background: rgb(41, 175, 212);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+.containApI {
+  width: 100%;
+}
+.platforntxt {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-right: 5px;
+}
+.containplatform1 {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 82%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #f5f4f4;
+  z-index: 12;
+}
+#containplatformDown {
+  margin-top: -17%;
+}
+
+@media screen and (min-width: 400px) {
+  .ApiTop {
+    margin-top: 2%;
+  }
+}
+@media screen and (min-width: 500px) {
+  .ApiTop {
+    margin-top: 4%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .containplatform1 {
+    width: 83%;
+    font-size: 1.9rem;
+    margin-top: 0;
+  }
+  #containplatformDown {
+    margin-top: -16%;
+  }
+  .ApiTop {
+    margin-top: -4%;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ApiTop {
+    margin-top: 2%;
+  }
+
+}
+@media screen and (min-width: 800px) {
+  .platforntxt{
+    font-size: 1rem;
+  }
+  .containtxttitle{
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ApiTop {
+    margin-top: 5%;
+  }
+  #containplatformDown {
+    margin-top: -14%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .ApiTop {
+    margin-top: 4%;
+}
+.containplatform1 {
+  width: 72%;
+ 
+}
+}
+@media screen and (min-width: 1200px) {
+  .ApiTop {
+    margin-top: 6%;
+    padding: 1.5rem 1.5rem;
+font-size: 1.5rem;
+font-weight: 500;
+border-radius: 30px;
+}
+}
+@media screen and (min-width: 1400px) {
+
+}

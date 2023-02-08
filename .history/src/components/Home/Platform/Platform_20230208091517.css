@@ -1,0 +1,46 @@
+.containplatform {
+  background-color:rgb(237, 241, 244);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 90%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.platformText {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  /* padding-bottom: 0; */
+
+  border-radius: 10px;
+  text-align: justify;
+  direction: rtl;
+}
+.dastresi {
+  padding: 0.5rem;
+}
+.smartPlatform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  background: rgb(41, 175, 212);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  z-index: 11;
+}
+@media screen and (min-width: 700px) {
+  .containplatform {
+    width: 76%;
+  }
+  .platformText {
+    padding: 2.5rem 3rem;
+    font-size: 1.9rem;
+
+  }
+  .dastresi{
+    font-size: 1.9rem;
+  }
+}

@@ -1,0 +1,120 @@
+.containWays {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 45px;
+}
+.line {
+  margin: 0.5rem;
+}
+.headOfWay {
+  background: rgb(60, 61, 63);
+  color: white;
+  display: flex;
+  justify-content: RIGHT;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  width: 76%;
+  border-radius: 30px;
+  margin: 1rem 0;
+}
+.imagewaylitt {
+  margin-left: 12px;
+}
+.picMainWay {
+  background-color: transparent;
+  border: 2px solid rgb(237, 241, 244);
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.picMainWay1 {
+  background: rgb(237, 241, 244);
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.mail {
+  width: 100%;
+  padding: 1.5rem;
+}
+.dot{
+display: none;
+
+}
+.line{
+  fo
+}
+@media screen and (min-width: 400px) {
+  .headOfWay {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .containWays {
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 2rem 2rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  .containWays {
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+  }
+}
+@media screen and (min-width:992px) {
+  .mail {
+    padding: 4rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .mail {
+    width: 100%;
+    padding: 3.5rem;
+  }
+  .containWays {
+    font-size: 1.5rem;
+  }
+  .line {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .containWays {
+    flex-direction: row-reverse;
+    border-radius: 139px;
+    margin: 3rem 0;
+    width: 76%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  .headOfWay {
+    width: 80%;
+    border-radius: 30px;
+  }
+  .mail {
+    width: 100%;
+    padding: 2rem;
+  }
+ 
+}
+@media screen and (min-width: 1400px) {
+
+.name,
+.number,
+.dot {
+  margin: 0 14px;
+}}

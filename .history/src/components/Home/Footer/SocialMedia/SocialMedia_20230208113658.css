@@ -1,0 +1,51 @@
+.containSocial {
+  background-color: white;
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 47px;
+}
+.socialMediaLogo {
+  width: 24%;
+  margin: 10px 10px;
+}
+@media screen and (min-width: 700px) {
+  .containSocial {
+    width: 90%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+
+  }
+  .socialMediaLogo {
+    width: 24%;
+    margin: 0px 10px;
+  }
+  .containLogo {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .containLogo {
+    width: 22%;
+  }
+  .containSocial {
+    padding: 1rem 2rem;
+    width:76%;
+
+  }
+  .socialMediaLogo {
+    width: 32%;
+    margin: 0px 5px;
+}
+}
+@media screen and (min-width: 800px) {
+
+.socialMediaLogo {
+  width: 25%;
+  margin: 0px 12px;
+}
