@@ -7,8 +7,6 @@
   align-items: center;
   padding: 1rem;
   border-radius: 47px;
-  max-width: 500px !important;
-
 }
 .containSocial span{
   text-align: center;
@@ -72,7 +70,7 @@
 }
 .containSocial{
   width: 76%;
-  max-width: 500px !important;
+  max-width: 500px;
 
 
 }

@@ -16,7 +16,7 @@ export default function Ways() {
       }}
     >
       <div className="containWays">
-        <div className="col-xs-12 col-lg-5">
+        <div className="col-12">
           <div className="picMainWay">
             <div className="picMainWay1">
               <img
@@ -40,7 +40,7 @@ export default function Ways() {
           </div>
         </div>
         <div
-          className="col-12"
+          className="col-xs-12 col-lg-9"
           style={{
             display: "flex",
             flexDirection: "column",

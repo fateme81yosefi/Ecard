@@ -35,23 +35,28 @@
   z-index: 11;
   font-weight: 500;
   font-size: 0.7rem;
+
 }
 
 @media screen and (min-width: 400px) {
-  .smartPlatform {
-    font-size: 1.1rem;
-  }
+
+.smartPlatform{
+  font-size:1.1rem;
+}
+
 }
 @media screen and (min-width: 700px) {
-  .containplatform {
+  .containplatform{
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
+
   }
-  .platformText {
+  .platformText{
     padding: 1rem 1.5rem;
     font-size: 1.3rem;
   }
+
 }
 @media screen and (min-width: 1000px) {
   .containplatform {
@@ -59,42 +64,39 @@
     padding: 2rem;
     margin-bottom: 2rem;
     max-width: 500px !important;
-    font-size: 1rem;
+    fon
+
   }
   .platformText {
-    padding: 1.75rem 1.75rem;
-    font-size: 1rem;
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
   }
   .dastresi {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 1rem;
   }
   .smartPlatform {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 1rem 3rem;
-  }
-  #containplatformDown {
-    margin-top: -8.5%;
-}
 
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .containplatform {
-    padding: 2rem;
-    margin-bottom: 2rem;
+    padding: 3rem;
+    margin-bottom: 3rem;
   }
-
-  .dastresi {
-    padding: 1rem;
+  .platformText{
+    font-size: 1.9rem;
+  }
+    .dastresi {
+      font-size: 1.9rem;
+      padding: 1rem;
   }
   .smartPlatform {
-    padding: 1rem 1.5rem;
-    border-radius: 12px;
+    font-size: 1.9rem;
+    padding: 1rem 3rem;
 
-  }
-  .smartPlatform svg{
-    height: 27px;
-    width: 27px;
   }
 }

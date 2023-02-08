@@ -161,19 +161,15 @@
     margin-top: 4%;
   }
   .containplatform1 {
-    max-width: 462px !important;
     width: 72%;
   }
-  #containplatformDown {
-    margin-top: -7%;
-}
 }
 @media screen and (min-width: 1200px) {
   .ApiTop {
     margin-top: 6%;
-    padding: 0.85rem 0.85rem;
-    font-size: 1rem;
-    font-weight: 800;
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
     border-radius: 30px;
   }
   .projButton {

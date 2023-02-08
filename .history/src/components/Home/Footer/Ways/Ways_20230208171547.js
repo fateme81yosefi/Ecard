@@ -40,7 +40,7 @@ export default function Ways() {
           </div>
         </div>
         <div
-          className="col-12"
+          className="col-xs-12 col-lg-9"
           style={{
             display: "flex",
             flexDirection: "column",

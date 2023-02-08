@@ -73,10 +73,6 @@
     font-size: 1rem;
     padding: 1rem 3rem;
   }
-  #containplatformDown {
-    margin-top: -8.5%;
-}
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -90,11 +86,5 @@
   }
   .smartPlatform {
     padding: 1rem 1.5rem;
-    border-radius: 12px;
-
-  }
-  .smartPlatform svg{
-    height: 27px;
-    width: 27px;
   }
 }

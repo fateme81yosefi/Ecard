@@ -96,10 +96,10 @@
     padding: 3.5rem;
   }
   .containWays {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .line {
-    font-size: 1rem;
+    font-size: 1.75rem;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -112,7 +112,7 @@
     margin-bottom: 2rem;
   }
   .headOfWay {
-    width: 100%;
+    width: 80%;
     border-radius: 30px;
   }
   .mail {

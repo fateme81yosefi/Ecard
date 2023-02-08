@@ -9,8 +9,6 @@
   padding: 1rem;
   margin: 1rem;
   border-radius: 45px;
-  max-width: 500px !important;
-
 }
 .line {
   margin: 0.5rem;
@@ -81,7 +79,7 @@
 }
 @media screen and (min-width: 800px) {
   .containWays {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 1rem 1rem;
   }
 }
@@ -96,15 +94,15 @@
     padding: 3.5rem;
   }
   .containWays {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .line {
-    font-size: 1rem;
+    font-size: 1.75rem;
   }
 }
 @media screen and (min-width: 1200px) {
   .containWays {
-    flex-direction: column;
+    flex-direction: row-reverse;
     border-radius: 139px;
     margin: 3rem 0;
     width: 76%;
@@ -112,7 +110,7 @@
     margin-bottom: 2rem;
   }
   .headOfWay {
-    width: 100%;
+    width: 80%;
     border-radius: 30px;
   }
   .mail {
@@ -120,7 +118,7 @@
     padding: 2rem;
   }
   .line {
-    font-size: 1rem;
+    font-size: 1.5rem;
     justify-content: center;
   }
 }
