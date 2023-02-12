@@ -123,7 +123,6 @@
   }
   .ApiTop {
     font-size: 15px;
-    margin-top: 6px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -142,24 +141,24 @@
 }
 
 @media screen and (min-width: 992px) {
-  /* .ApiTop {
+  .ApiTop {
     margin-top: 5%;
   }
   #containplatformDown {
     margin-top: -14%;
-  } */
+  }
 }
 @media screen and (min-width: 1000px) {
   .ApiTop {
-    margin-top: 0px;
+    margin-top: -18px;
   }
   .containplatform1 {
     max-width: 440px !important;
     width: 72%;
   }
-  /* #containplatformDown {
+  #containplatformDown {
     margin-top: -7%;
-  } */
+  }
 }
 @media screen and (min-width: 1200px) {
   .ApiTop {

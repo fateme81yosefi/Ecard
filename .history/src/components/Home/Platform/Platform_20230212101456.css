@@ -30,7 +30,7 @@
   padding: 0.6rem 2rem;
   background: rgb(41, 175, 212);
   border: none;
-  border-radius: 12px;
+  border-radius: 24px;
   color: white;
   z-index: 11;
   font-weight: 500;
@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 400px) {
   .smartPlatform {
-    font-size: 16px;
+    font-size: 16rem;
   }
 }
 @media screen and (min-width: 700px) {

@@ -150,9 +150,9 @@
   } */
 }
 @media screen and (min-width: 1000px) {
-  .ApiTop {
-    margin-top: 0px;
-  }
+  /* .ApiTop {
+    margin-top: -18px;
+  } */
   .containplatform1 {
     max-width: 440px !important;
     width: 72%;

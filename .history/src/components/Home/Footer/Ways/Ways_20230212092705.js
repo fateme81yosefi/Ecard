@@ -16,7 +16,7 @@ export default function Ways() {
       }}
     >
       <div className="containWays">
-        <div className="col-xs-12 col-lg-5 mrtup">
+        <div className="col-xs-12 col-lg-5 ">
           <div className="picMainWay">
             <div className="picMainWay1">
               <img
@@ -77,7 +77,7 @@ export default function Ways() {
                   : ""
                 : ""}
             </span>
-            <span className="dot">..................................................</span>
+            <span className="dot">..................................</span>
             <div className="n&img">
               <span className="name">
                 {" "}
@@ -114,7 +114,7 @@ export default function Ways() {
                   : ""
                 : ""}
             </span>
-            <span className="dot">........................................</span>
+            <span className="dot">........................</span>
             <div className="n&img">
               <span className="name">
                 {" "}
@@ -151,7 +151,7 @@ export default function Ways() {
                   : ""
                 : ""}
             </span>
-            <span className="dot">..................................</span>
+            <span className="dot">..................</span>
             <div className="n&img">
               <span className="name">
                 {Data[4]

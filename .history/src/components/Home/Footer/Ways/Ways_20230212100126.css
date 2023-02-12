@@ -10,7 +10,7 @@
   margin: 1rem;
   border-radius: 45px;
   max-width: 500px !important;
-  box-shadow: 0px 6px 0px 0px rgb(255, 203, 67);
+
 }
 .line {
   margin: 0.5rem;
@@ -28,7 +28,7 @@
   margin: 1rem 0;
 }
 .imagewaylitt {
-  margin-left: 6px;
+  margin-left:6px;
 }
 .picMainWay {
   background-color: #ffff;
@@ -56,11 +56,11 @@
   display: none;
 }
 .line {
-  font-size: 14px;
+  font-size: 0.8rem;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 @media screen and (min-width: 400px) {
   .headOfWay {
@@ -69,11 +69,6 @@
   .dot {
     display: flex;
   }
-  .line {
-    font-size: 15px;
-
-    justify-content: center;
-  }
 }
 @media screen and (min-width: 700px) {
   .containWays {
@@ -81,6 +76,7 @@
     font-size: 1.2rem;
     padding: 2rem 2rem;
     max-width: 475px !important;
+
   }
 }
 @media screen and (min-width: 800px) {
@@ -91,13 +87,13 @@
 }
 @media screen and (min-width: 992px) {
   .mail {
-    padding: 0.9rem;
+    padding: 4rem;
   }
 }
 @media screen and (min-width: 1000px) {
   .mail {
     width: 100%;
-    padding: 0.8rem;
+    padding: 3.5rem;
   }
   .containWays {
     font-size: 1rem;
@@ -107,7 +103,7 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .mrtup {
+  .mrtup{
     margin-top: -98px;
     max-width: 127px;
   }

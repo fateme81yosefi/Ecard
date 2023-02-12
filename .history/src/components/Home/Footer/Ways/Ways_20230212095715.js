@@ -77,7 +77,7 @@ export default function Ways() {
                   : ""
                 : ""}
             </span>
-            <span className="dot">..................................................</span>
+            <span className="dotspan>
             <div className="n&img">
               <span className="name">
                 {" "}
@@ -114,7 +114,7 @@ export default function Ways() {
                   : ""
                 : ""}
             </span>
-            <span className="dot">........................................</span>
+            <span className="dot">....................................</span>
             <div className="n&img">
               <span className="name">
                 {" "}
@@ -151,7 +151,7 @@ export default function Ways() {
                   : ""
                 : ""}
             </span>
-            <span className="dot">..................................</span>
+            <span className="dot">..............................</span>
             <div className="n&img">
               <span className="name">
                 {Data[4]

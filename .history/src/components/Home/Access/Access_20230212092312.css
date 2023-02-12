@@ -8,7 +8,8 @@
   border: none;
   border-radius: 13px;
   font-weight: 500;
-  margin-top: -12px;
+  margin-top: -9%;
+
 }
 .projButton {
   background-color: rgb(255, 255, 255);
@@ -22,12 +23,14 @@
   border-radius: 10px;
   margin-top: 10px;
   direction: rtl;
+
 }
 .containtxttitle {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   font-weight: bold;
+  
 }
 .circlieLittle {
   background: rgb(41, 175, 212);
@@ -56,9 +59,10 @@
   border: 2px solid #f5f4f4;
   z-index: 12;
   max-width: 500px !important;
+
 }
 #containplatformDown {
-  margin-top: -58px;
+  margin-top: -17%;
 }
 .dash {
   display: none;
@@ -75,19 +79,23 @@
 .platforntxt {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
+  
 }
 @media screen and (min-width: 330px) {
   .ApiTop {
+    margin-top: -5%;
   }
 }
 @media screen and (min-width: 400px) {
   .containtxttitle {
     align-items: center;
     white-space: nowrap;
+
   }
   .ApiTop {
+    margin-top: -3%;
   }
   .dash {
     display: block;
@@ -95,35 +103,34 @@
   .containtxttitle {
     flex-direction: row;
   }
-  .projButton {
+  .projButton{
     padding: 0.5rem 1.5rem;
   }
+ 
 }
 @media screen and (min-width: 500px) {
   .ApiTop {
-    margin-top: 12px;
+    margin-top: 4%;
   }
   .platforntxt {
     font-size: 0.75rem;
-  }
-  #containplatformDown {
-    margin-top: -82px;
   }
 }
 
 @media screen and (min-width: 700px) {
   .containplatform1 {
     width: 83%;
-    font-size: 15px;
+    font-size: 1.9rem;
     margin-top: 0;
-    max-width: 470px !important;
+    max-width: 500px !important;
+
   }
   #containplatformDown {
-    /* margin-top: -16%; */
+    margin-top: -16%;
   }
   .ApiTop {
-    font-size: 15px;
-    margin-top: 6px;
+    margin-top: -4%;
+    font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -133,39 +140,39 @@
 }
 @media screen and (min-width: 800px) {
   .platforntxt {
-    font-size: 15px;
+    font-size: 1rem;
   }
   .containtxttitle {
-    font-size: 15px;
+    font-size: 1.2rem;
     font-weight: 900;
   }
 }
 
 @media screen and (min-width: 992px) {
-  /* .ApiTop {
+  .ApiTop {
     margin-top: 5%;
   }
   #containplatformDown {
     margin-top: -14%;
-  } */
+  }
 }
 @media screen and (min-width: 1000px) {
   .ApiTop {
-    margin-top: 0px;
+    margin-top: 4%;
   }
   .containplatform1 {
     max-width: 440px !important;
     width: 72%;
   }
-  /* #containplatformDown {
+  #containplatformDown {
     margin-top: -7%;
-  } */
+}
 }
 @media screen and (min-width: 1200px) {
   .ApiTop {
     margin-top: 3px;
     padding: 0.85rem 0.85rem;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 800;
     border-radius: 8px;
   }
@@ -176,7 +183,7 @@
   }
   .containtxttitle {
     font-size: 15px;
-    font-weight: bolder;
+    font-weight:bolder;
   }
   .projButton svg {
     width: 27px;

@@ -9,6 +9,7 @@
   border-radius: 13px;
   font-weight: 500;
   margin-top: -12px;
+
 }
 .projButton {
   background-color: rgb(255, 255, 255);
@@ -22,12 +23,14 @@
   border-radius: 10px;
   margin-top: 10px;
   direction: rtl;
+
 }
 .containtxttitle {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   font-weight: bold;
+  
 }
 .circlieLittle {
   background: rgb(41, 175, 212);
@@ -56,6 +59,7 @@
   border: 2px solid #f5f4f4;
   z-index: 12;
   max-width: 500px !important;
+
 }
 #containplatformDown {
   margin-top: -58px;
@@ -75,8 +79,9 @@
 .platforntxt {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
+  
 }
 @media screen and (min-width: 330px) {
   .ApiTop {
@@ -86,6 +91,7 @@
   .containtxttitle {
     align-items: center;
     white-space: nowrap;
+
   }
   .ApiTop {
   }
@@ -95,20 +101,20 @@
   .containtxttitle {
     flex-direction: row;
   }
-  .projButton {
+  .projButton{
     padding: 0.5rem 1.5rem;
   }
+ 
 }
 @media screen and (min-width: 500px) {
   .ApiTop {
-    margin-top: 12px;
   }
   .platforntxt {
     font-size: 0.75rem;
   }
   #containplatformDown {
     margin-top: -82px;
-  }
+}
 }
 
 @media screen and (min-width: 700px) {
@@ -117,13 +123,13 @@
     font-size: 15px;
     margin-top: 0;
     max-width: 470px !important;
+
   }
   #containplatformDown {
-    /* margin-top: -16%; */
+    margin-top: -16%;
   }
   .ApiTop {
     font-size: 15px;
-    margin-top: 6px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -142,24 +148,24 @@
 }
 
 @media screen and (min-width: 992px) {
-  /* .ApiTop {
+  .ApiTop {
     margin-top: 5%;
   }
   #containplatformDown {
     margin-top: -14%;
-  } */
+  }
 }
 @media screen and (min-width: 1000px) {
   .ApiTop {
-    margin-top: 0px;
+    margin-top: -18px;
   }
   .containplatform1 {
     max-width: 440px !important;
     width: 72%;
   }
-  /* #containplatformDown {
+  #containplatformDown {
     margin-top: -7%;
-  } */
+}
 }
 @media screen and (min-width: 1200px) {
   .ApiTop {
@@ -176,7 +182,7 @@
   }
   .containtxttitle {
     font-size: 15px;
-    font-weight: bolder;
+    font-weight:bolder;
   }
   .projButton svg {
     width: 27px;

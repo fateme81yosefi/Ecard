@@ -77,7 +77,7 @@ export default function Ways() {
                   : ""
                 : ""}
             </span>
-            <span className="dot">..................................................</span>
+            <span className="dot">....................................................</span>
             <div className="n&img">
               <span className="name">
                 {" "}

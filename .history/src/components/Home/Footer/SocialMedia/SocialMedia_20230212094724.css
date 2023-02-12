@@ -7,22 +7,23 @@
   align-items: center;
   padding: 1rem;
   border-radius: 47px;
-  max-width: 473px !important;
+  max-width: 500px !important;
+
 }
-.containSocial span {
+.containSocial span{
   text-align: center;
 }
 .socialMediaLogo {
   width: 24%;
   margin: 10px 10px;
 }
-.containLogo {
+.containLogo{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 @media screen and (min-width: 400px) {
-  .containSocial span {
+  .containSocial span{
     text-align: right;
   }
 }
@@ -32,7 +33,8 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     padding: 1rem 1rem;
-    font-size: 15px;
+    font-size: 1.2rem;
+
   }
   .socialMediaLogo {
     width: 24%;
@@ -48,27 +50,31 @@
   }
   .containSocial {
     padding: 1rem 2rem;
+
   }
   .socialMediaLogo {
     width: 32%;
     margin: 0px 5px;
-  }
+}
 }
 @media screen and (min-width: 1000px) {
-  .containSocial {
-    font-size: 15px;
+  .containSocial{
+    font-size: 1.7rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  .containSocial {
+  .containSocial{
     font-size: 15px;
   }
-  .socialMediaLogo {
-    max-width: 26px;
-    margin: 0px 6px;
-  }
-  .containSocial {
-    width: 76%;
-    max-width: 473px !important;
-  }
+.socialMediaLogo {
+  width: 25%;
+  margin: 0px 12px;
+}
+.containSocial{
+  width: 76%;
+  max-width: 500px !important;
+
+
+}
+
 }
