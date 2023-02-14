@@ -16,7 +16,7 @@ export default function Ways() {
       }}
     >
       <div className="containWays">
-        <div className="mrtup">
+        <div className="col-xs-3 col-lg-5 mrtup">
           <div className="picMainWay">
             <div className="picMainWay1">
               <img

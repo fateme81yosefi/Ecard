@@ -179,7 +179,6 @@
   .mrtup {
     margin-top: -98px;
     max-width: 127px;
-    width: 127px;
   }
   .containWays {
     flex-direction: column;
@@ -188,8 +187,6 @@
     width: 76%;
     padding: 2rem;
     margin-bottom: 2rem;
-    padding-bottom: 43px;
-
   }
   .headOfWay {
     width: 100%;

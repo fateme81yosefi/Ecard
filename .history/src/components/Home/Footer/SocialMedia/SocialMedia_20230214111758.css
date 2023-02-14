@@ -15,8 +15,6 @@
 .containSocial span {
   text-align: center;
   white-space: nowrap;
-  word-spacing: -1.6px;
-
 
 }
 .socialMediaLogo {
@@ -36,13 +34,9 @@
     margin-right: 10px;
   }
 }
-@media screen and (min-width: 500px) {
 
-.containSocial{
-  padding: 1rem 3rem;
+padding: 1rem 3rem;
 
-}
-}
 @media screen and (min-width: 700px) {
   .containSocial {
     width: 90%;
@@ -87,7 +81,6 @@
   .socialMediaLogo {
     max-width: 26px;
     margin: 0px 6px;
-    width: 26px;
   }
   .containSocial {
     width: 76%;

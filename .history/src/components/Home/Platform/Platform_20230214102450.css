@@ -20,20 +20,17 @@
   direction: rtl;
   font-weight: 400;
   line-height: 30px;
-  word-spacing: -1.5px;
-
 
 }
 .dastresi {
-  padding: 0.95rem 0.5rem;
-  word-spacing: -2px;
-
+  padding: 0.5rem;
 }
 .smartPlatform {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.9rem 2rem;
+  padding: 1rem 3rem;
+  padding: 0.6rem 2rem;
   background: rgb(41, 175, 212);
   border: none;
   border-radius: 12px;
@@ -42,7 +39,6 @@
   font-weight: 500;
   font-size: 15px;
   font-weight: 600;
-  word-spacing: -2px;
 
 }
 
@@ -60,8 +56,6 @@
   .platformText {
     padding: 1rem 1.5rem;
     font-size: 15px;
-    word-spacing: -1.9px;
-
   }
 }
 @media screen and (min-width: 1000px) {

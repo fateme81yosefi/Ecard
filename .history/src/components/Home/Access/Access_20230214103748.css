@@ -10,7 +10,6 @@
   font-weight: 500;
   margin-top: -12px;
   font-size: 15px;
-  word-spacing: -3px;
 
 }
 .projButton {
@@ -50,10 +49,6 @@
   font-weight: 400;
   margin-right: 5px;
   white-space: nowrap;
-  color: #3f3f3f;
-  word-spacing: -3px;
-
-
 }
 .containplatform1 {
   background-color: transparent;
@@ -78,8 +73,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  word-spacing: -3px;
-
 }
 .containtxttitle {
   width: 100%;

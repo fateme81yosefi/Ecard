@@ -20,8 +20,6 @@
   direction: rtl;
   font-weight: 400;
   line-height: 30px;
-  word-spacing: -1.5px;
-
 
 }
 .dastresi {
@@ -60,8 +58,6 @@
   .platformText {
     padding: 1rem 1.5rem;
     font-size: 15px;
-    word-spacing: -1.9px;
-
   }
 }
 @media screen and (min-width: 1000px) {

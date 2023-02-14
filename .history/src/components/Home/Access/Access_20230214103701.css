@@ -10,7 +10,6 @@
   font-weight: 500;
   margin-top: -12px;
   font-size: 15px;
-  word-spacing: -3px;
 
 }
 .projButton {
@@ -20,7 +19,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  padding: 0.95rem 1rem;
+  padding: 0.5rem 1rem;
   border: none;
   border-radius: 10px;
   margin-top: 10px;
@@ -50,10 +49,6 @@
   font-weight: 400;
   margin-right: 5px;
   white-space: nowrap;
-  color: #3f3f3f;
-  word-spacing: -3px;
-
-
 }
 .containplatform1 {
   background-color: transparent;
@@ -78,8 +73,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  word-spacing: -3px;
-
 }
 .containtxttitle {
   width: 100%;
@@ -114,8 +107,6 @@
   }
   .projButton {
     padding: 0.5rem 1.5rem;
-    padding: 0.95rem 1.5rem;
-
   }
   .ApiTop {
     margin-top: 4px;

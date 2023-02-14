@@ -12,8 +12,6 @@
   max-width: 500px !important;
   box-shadow: 0px 4px 0px 0px rgb(255, 203, 67);
   margin-top: 114px;
-  padding-bottom: 34px;
-
 }
 .line {
   margin: 0.5rem;
@@ -74,21 +72,9 @@
 .imagewaylitt img {
   width: 11px;
 }
-.name{
-  word-spacing: -2px;
-
-}
-@media screen and (min-width: 400px) {
-
-.mrtup{
-  width: 41%;
-  margin-top: -27%;
-
-}
-}
 @media screen and (min-width: 460px) {
   .containWays{
-    margin-top: 100px;
+    margin-top: 143px;
   }
 }
 @media screen and (min-width: 500px) {
@@ -116,11 +102,7 @@
     margin-right: 5px;
   }
   .mail{
-    padding: 0.9rem;
-  }
-  .mrtup{
-    width: 30%;
-    margin-top: -19%;
+    padding: 2.51rem;
 
   }
 }
@@ -130,28 +112,20 @@
     font-size: 1.2rem;
     padding: 2rem 2rem;
     max-width: 475px !important;
-    margin-bottom: 27px;
-
   }
   .picMainWay1 {
     padding: 1rem;
   }
-  .mail{
-    padding: 3px;
-
-  }
 }
 @media screen and (min-width: 768px) {
   .mrtup{
-    width: 30%;
+    width: ;
   }
 }
 @media screen and (min-width: 800px) {
   .containWays {
     font-size: 1rem;
     padding: 1rem 1rem;
-    padding-bottom: 44px;
-
   }
 }
 @media screen and (min-width: 992px) {
@@ -179,7 +153,6 @@
   .mrtup {
     margin-top: -98px;
     max-width: 127px;
-    width: 127px;
   }
   .containWays {
     flex-direction: column;
@@ -188,8 +161,6 @@
     width: 76%;
     padding: 2rem;
     margin-bottom: 2rem;
-    padding-bottom: 43px;
-
   }
   .headOfWay {
     width: 100%;

@@ -12,13 +12,11 @@
   max-width: 500px !important;
   box-shadow: 0px 4px 0px 0px rgb(255, 203, 67);
   margin-top: 114px;
-  padding-bottom: 34px;
 
 }
 .line {
   margin: 0.5rem;
   font-size: 13px;
-  padding: 0rem 1rem;
 }
 .headOfWay {
   background: rgb(60, 61, 63);
@@ -26,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border: none;
   width: 100%;
   border-radius: 30px;
@@ -35,9 +33,9 @@
 .imagewaylitt {
   margin-left: 6px;
 }
-.mrtup {
-  margin-top: -31%;
-  width: 50%;
+.mrtup{
+  margin-top: -26%;
+
 }
 .picMainWay {
   background-color: #ffff;
@@ -59,7 +57,7 @@
 }
 .mail {
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .dot {
   display: none;
@@ -71,27 +69,10 @@
   align-items: center;
   justify-content: space-between;
 }
-.imagewaylitt img {
+.imagewaylitt img{
   width: 11px;
 }
-.name{
-  word-spacing: -2px;
-
-}
 @media screen and (min-width: 400px) {
-
-.mrtup{
-  width: 41%;
-  margin-top: -27%;
-
-}
-}
-@media screen and (min-width: 460px) {
-  .containWays{
-    margin-top: 100px;
-  }
-}
-@media screen and (min-width: 500px) {
   .headOfWay {
     width: 100%;
   }
@@ -100,27 +81,20 @@
   }
   .line {
     font-size: 14px;
-    padding: 0;
+
     justify-content: center;
   }
-  .twopoint {
+  .twopoint{
     display: none;
   }
-  .imagewaylitt img {
+  .imagewaylitt img{
     width: 12px;
   }
-  .name {
+  .name{
     margin-left: 5px;
   }
-  .number {
+  .number{
     margin-right: 5px;
-  }
-  .mail{
-    padding: 0.9rem;
-  }
-  .mrtup{
-    width: 30%;
-    margin-top: -19%;
 
   }
 }
@@ -130,28 +104,15 @@
     font-size: 1.2rem;
     padding: 2rem 2rem;
     max-width: 475px !important;
-    margin-bottom: 27px;
-
   }
-  .picMainWay1 {
+  .picMainWay1{
     padding: 1rem;
-  }
-  .mail{
-    padding: 3px;
-
-  }
-}
-@media screen and (min-width: 768px) {
-  .mrtup{
-    width: 30%;
   }
 }
 @media screen and (min-width: 800px) {
   .containWays {
     font-size: 1rem;
     padding: 1rem 1rem;
-    padding-bottom: 44px;
-
   }
 }
 @media screen and (min-width: 992px) {
@@ -175,11 +136,10 @@
 @media screen and (min-width: 1200px) {
   .picMainWay1 {
     padding: 0.5rem;
-  }
+}
   .mrtup {
     margin-top: -98px;
     max-width: 127px;
-    width: 127px;
   }
   .containWays {
     flex-direction: column;
@@ -188,8 +148,6 @@
     width: 76%;
     padding: 2rem;
     margin-bottom: 2rem;
-    padding-bottom: 43px;
-
   }
   .headOfWay {
     width: 100%;
@@ -206,7 +164,7 @@
     font-size: 15px;
     justify-content: center;
   }
-  .imagewaylitt img {
+  .imagewaylitt img{
     width: 13px;
   }
 }
@@ -216,7 +174,7 @@
   .dot {
     margin: 0px 4px;
   }
-  .name {
+  .name{
     margin-left: 10px;
   }
 }
