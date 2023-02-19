@@ -1,0 +1,58 @@
+import React, { useContext } from "react";
+import "./Header.css";
+import { DataContext } from "../../shared/Shared";
+
+export default function Header() {
+  let [Data, setData] = useContext(DataContext);
+
+
+  return (
+    <div className="contHeadLogo">
+      <img
+        className="logo"
+        alt={
+          Data
+            ? Data[0]
+              ? Data[0].Module
+                ? Data[0].Module[0]
+                  ? Data[0].Module[0].ModuleDetails
+                    ? Data[0].Module[0].ModuleDetails[0]
+                      ? Data[0].Module[0].ModuleDetails[0].ImageURL
+                        ? Data[0].Module[0].ModuleDetails[0].ImageURL
+                        : ""
+                      : ""
+                    : ""
+                  : ""
+                : ""
+              : ""
+            : ""
+        }
+        src={
+          Data
+            ? Data[0]
+              ? Data[0].Module
+                ? Data[0].Module[0]
+                  ? Data[0].Module[0].ModuleDetails
+                    ? Data[0].Module[0].ModuleDetails[0]
+                      ? Data[0].Module[0].ModuleDetails[0].ImageURL
+                        ? Data[0].Module[0].ModuleDetails[0].ImageURL
+                        : ""
+                      : ""
+                    : ""
+                  : ""
+                : ""
+              : ""
+            : ""
+        }
+      />
+      <div
+        className="circle"
+        style={{
+          backgroundColor: Data ? (Data[0] ? Data[0].BackgroundColor : "") : "",
+        }}
+      ></div>
+    </div>
+  );
+}
+
+//

@@ -1,0 +1,64 @@
+import React, { useContext, useState, useEffect } from "react";
+import { DataContext } from "../../../shared/Shared";
+import "./SocialMedia.css";
+export default function SocialMedia(da) {
+  let [Data, setData] = useContext(DataContext);
+  const [x, setX] = useState([]);
+
+  useEffect(() => {
+    if (Data?.length) {
+      setX(
+        Data
+          ? Data[4]
+            ? Data[4].Module
+              ? Data[4].Module[1]
+                ? Data[4].Module[1].ModuleDetails
+                  ? Data[4].Module[1].ModuleDetails
+                  : ""
+                : ""
+              : ""
+            : ""
+          : ""
+      );
+    }
+  }, [Data]);
+  return (
+    <div
+      className="container"
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "row",
+      }}
+    >
+      {" "}
+      <div className="containSocial">
+        <span>
+          {Data[4]
+            ? Data[4].Module[0]
+              ? Data[4].Module[0].ModuleDetails
+                ? Data[4].Module[0].ModuleDetails[0]
+                  ? Data[4].Module[0].ModuleDetails[0].Title
+                    ? Data[4].Module[0].ModuleDetails[0].Title
+                    : ""
+                  : ""
+                : ""
+              : ""
+            : ""}
+        </span>
+        <div className="containLogo">
+          {x.map((item, index) => (
+            <img
+              key={index}
+              className="socialMediaLogo"
+              src={item.ImageURL}
+              alt={item.ImageAlt}
+            />
+          ))}
+
+        </div>
+      </div>
+    </div>
+  );
+}
