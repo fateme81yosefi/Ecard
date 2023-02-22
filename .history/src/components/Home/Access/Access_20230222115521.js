@@ -1,10 +1,9 @@
 import React, { useContext, useEffect } from "react";
 import "./Access.css";
+import { DataContext } from "../../shared/Shared";
 import { useState } from "react";
-import { BrandContext } from "../../shared/Shared";
 
 export default function Access(props) {
-  let [Brand, setBrand] = useContext(BrandContext);
 
   function compare(a, b) {
     if (a.Priority < b.Priority) {
@@ -75,7 +74,7 @@ export default function Access(props) {
                 >
                   <span className="containtxttitle">
                     <div className="containcircTitle">
-                      <div className="circlieLittle" style={{ backgroundColor:Brand , color:moduleDetails.TitleForeColor}}></div>
+                      <div className="circlieLittle" style={{backgroundColor: moduleDetails.BackgroundColor , color:moduleDetails.TitleForeColor}}></div>
                       {moduleDetails.Title}
                       <span className="dash"> - </span>
                     </div>

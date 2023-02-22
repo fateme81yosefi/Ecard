@@ -1,6 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
 export const DataContext = createContext();
-export const BrandContext = createContext();
 
 export const DataProvider = (props) => {
   
@@ -14,15 +13,15 @@ export const DataProvider = (props) => {
     </DataContext.Provider>
   );
 };
-export const BrandProvider = (props) => {
+export const DataProvider = (props) => {
   
 
-  let [brand, setbrand] = useState({});
+  let [Data, setData] = useState({});
 
   
   return (
-    <BrandContext.Provider value={[brand, setbrand]}>
+    <DataContext.Provider value={[Data, setData]}>
       {props.children}
-    </BrandContext.Provider>
+    </DataContext.Provider>
   );
 };

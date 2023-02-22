@@ -1,6 +1,6 @@
 import React, { createContext, useEffect, useState } from "react";
 export const DataContext = createContext();
-export const BrandContext = createContext();
+export const DataContext = createContext();
 
 export const DataProvider = (props) => {
   

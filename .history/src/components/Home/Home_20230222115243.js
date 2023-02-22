@@ -5,11 +5,11 @@ import Access from "./Access/Access";
 import Footer from "./Footer/Footer";
 import Ways from "./Footer/Ways/Ways";
 import SocialMedia from "./Footer/SocialMedia/SocialMedia";
-import { BrandContext } from "../shared/Shared";
+import { DataContext } from "../shared/Shared";
 import "../Home/Home.css";
 import { useState } from "react";
 export default function Home() {
-  let [Brand, setBrand] = useContext(BrandContext);
+  let [Data, setData] = useContext(DataContext);
 
   const [D, setD] = useState([]);
   const [A, setA] = useState([]);
@@ -30,8 +30,10 @@ export default function Home() {
       if (!response.ok) throw new Error("nashod");
 
       let result = await response.json();
+      Data = result.Section;
+      setData(Data);
       console.log(result);
-      setD(result.Section);
+      setD(Data);
       setA(result);
 
     } catch (err) {
@@ -39,13 +41,12 @@ export default function Home() {
     } finally {
     }
   };
-  document.title=A ? A.Setting?A.Setting.Name:"": ""
 
   useEffect(() => {
     GetData();
+    document.title=""
   }, []);
-  setBrand(A ? A.Setting?A.Setting.BrandColor:"": "")
-  console.log(Brand)
+
   function compare(a, b) {
     if (a.Priority < b.Priority) {
       return -1;
@@ -62,7 +63,7 @@ export default function Home() {
     <>
       <div
         className="blueLine"
-        style={{ backgroundColor:Brand }}
+        style={{ backgroundColor: A ? A.Setting?A.S:"": "" }}
       ></div>
 
       {D.map((section, index) => {

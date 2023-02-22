@@ -62,7 +62,7 @@ export default function Home() {
     <>
       <div
         className="blueLine"
-        style={{ backgroundColor:Brand }}
+        style={{ backgroundColor:b }}
       ></div>
 
       {D.map((section, index) => {

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import "./Access.css";
 import { useState } from "react";
-import { BrandContext } from "../../shared/Shared";
+import { BrandContext } from "../shared/Shared";
 
 export default function Access(props) {
   let [Brand, setBrand] = useContext(BrandContext);

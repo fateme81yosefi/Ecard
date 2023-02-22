@@ -3,7 +3,7 @@ import Home from "./components/Home/Home";
 import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { stringify } from "ajv";
-import { DataProvider, BrandProvider } from "./components/shared/Shared";
+import { DataProvider ,BrandProvider} from "./components/shared/Shared";
 
 export default function App() {
   return (
@@ -11,15 +11,17 @@ export default function App() {
       <Switch>
         {" "}
         <BrandProvider>
-          <DataProvider>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route exact path="/parhamKish">
-              <Home />
-            </Route>{" "}
-          </DataProvider>
+
+        <DataProvider>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/parhamKish">
+            <Home />
+          </Route>{" "}
+        </DataProvider>
         </BrandProvider>
+
       </Switch>
     </BrowserRouter>
   );

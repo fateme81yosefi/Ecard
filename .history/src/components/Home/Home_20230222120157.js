@@ -44,8 +44,7 @@ export default function Home() {
   useEffect(() => {
     GetData();
   }, []);
-  setBrand(A ? A.Setting?A.Setting.BrandColor:"": "")
-  console.log(Brand)
+  setBrand()
   function compare(a, b) {
     if (a.Priority < b.Priority) {
       return -1;
@@ -62,7 +61,7 @@ export default function Home() {
     <>
       <div
         className="blueLine"
-        style={{ backgroundColor:Brand }}
+        style={{ backgroundColor: A ? A.Setting?A.Setting.BrandColor:"": "" }}
       ></div>
 
       {D.map((section, index) => {

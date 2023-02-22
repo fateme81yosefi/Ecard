@@ -30,6 +30,7 @@ export default function Home() {
       if (!response.ok) throw new Error("nashod");
 
       let result = await response.json();
+      Data = result.Section;
       console.log(result);
       setD(result.Section);
       setA(result);
@@ -44,8 +45,7 @@ export default function Home() {
   useEffect(() => {
     GetData();
   }, []);
-  setBrand(A ? A.Setting?A.Setting.BrandColor:"": "")
-  console.log(Brand)
+
   function compare(a, b) {
     if (a.Priority < b.Priority) {
       return -1;
@@ -62,7 +62,7 @@ export default function Home() {
     <>
       <div
         className="blueLine"
-        style={{ backgroundColor:Brand }}
+        style={{ backgroundColor: A ? A.Setting?A.Setting.BrandColor:"": "" }}
       ></div>
 
       {D.map((section, index) => {
